@@ -88,7 +88,24 @@
                 font-size: 22px;
             }
         }
-    </style>
+   nav {
+    background-color: #07314d;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+ </style>
 </head>
 
 <body>
@@ -97,8 +114,14 @@
     <h1>Servicios y Soluciones GyG</h1>
     <p>Soluciones profesionales para tu negocio</p>
 </header>
+<nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+</nav>
 
-<section>
+<section id="servicios">
+
     <h2>Servicios</h2>
     <p>Aquí puedes describir los servicios que ofrece tu empresa. Por ejemplo:</p>
     <ul>
@@ -108,12 +131,14 @@
     </ul>
 </section>
 
-<section>
+<section id="nosotros">
+
     <h2>Sobre Nosotros</h2>
     <p>Un pequeño texto sobre la historia, misión y experiencia de la empresa.</p>
 </section>
 
-<section>
+<section id="contacto">
+
     <h2>Contacto</h2>
     <p>📞 Teléfono: 0000-0000</p>
     <p>📧 Email: contacto@empresa.com</p>
